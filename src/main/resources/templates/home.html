@@ -3,7 +3,7 @@
 	<body>	
 		<div th:replace="~{base :: logo}"></div>
 
-		<div class="container">
+		<div class="container mb-5">
 			<div th:replace="~{base :: titulo('Meus Pedidos')}"></div>
 		
 			<nav class="navbar navbar-expand navbar-light bg-light d-flex justify-content-between mb-3">
@@ -42,7 +42,7 @@
 						</div>
 						<div class="col-12 col-sm-4">
 							<div>
-								<img class="img-thumbnail" th:src="${pedido.urlImagem}" src="" />
+								<img class="img-thumbnail mb-5" th:src="${pedido.urlImagem}" src="" />
 							</div>
 						</div>
 					</div>
